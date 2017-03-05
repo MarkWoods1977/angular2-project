@@ -10,8 +10,7 @@ import {CourseService} from './course.service'
       <li *ngFor="let course of courses">
       {{course}}
 </li>
-</ul>`,
-  providers: [CourseService]
+</ul>`
 
 })
 export class CoursesComponent {
